@@ -1,10 +1,10 @@
 # TechLabs_medicine
-We want..
+
 
 # Demo
 Some description
 
-Add something
+We want to develop a machine learning model which will predict if a person may develop cardiac disease
 
 
 
