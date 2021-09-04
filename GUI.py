@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
 
-sg.Window(title="Hello World", layout=[[]], margins=(100, 50)).read()
+#sg.Window(title="Hello World", layout=[[]], margins=(100, 50)).read()
 
 layout = [[sg.Text("Hello from PySimpleGUI")], [sg.Button("OK")]]
 
