@@ -26,6 +26,6 @@ The tweets dataset stored on Kaggle was taken as dataset for study.
 Different information present on the dataset like number of rows, columns, variables, etc. were first observed. Number of tweets were counted along with their result like depressed or not were calculated and visualized using simple pie chart. 
 
 **Machine Learining Models**
-We trained supervised machine learning models to differentiate between depressed and healthy sample based upon their tweets. At the begining the sentenses were passed to BERT models and pooling layer to generate their embeddings. 
+We trained supervised machine learning models to differentiate between depressed and healthy sample based upon their tweets. At the begining the sentences were passed to BERT models and pooling layer to generate their embeddings. 
 The Classifiers were trained on a randomly selected 80% of total population, and tested on the remaining 20%. We basically used Random Forest Classifier, Infusion Matrix, Naives Bayes Classifier and Support Vector Machine (SVM).
 Out of several candidate algorithms, a.... demonstrated the best performance. Stratified (...five fold) cross validation was used to optimize  .... (name of the model) and final accuracy scores were calculated. 
