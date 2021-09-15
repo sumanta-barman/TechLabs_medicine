@@ -15,6 +15,6 @@ https://www.youtube.com/watch?v=oUpuABKoElw
 
 or watch this video...https://www.youtube.com/watch?v=szczpgOEdXs
 
-# More to come
+# Project steps
 
 
