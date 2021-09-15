@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1PZRVEnetty7GRQMOcIHqTSCwkRRhQK-A
 """
 
-!pip install sentence-transformers
+#!pip install sentence-transformers
 import numpy as np 
 import pandas as pd
 from sklearn.model_selection import train_test_split
