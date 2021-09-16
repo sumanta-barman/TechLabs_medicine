@@ -26,9 +26,6 @@ The tweets dataset stored on Kaggle was taken as dataset for study.
 Different information present on the dataset like number of rows, columns, variables, etc. were first observed. Number of tweets were counted along with their result like depressed or not were calculated and visualized using simple pie chart. 
 
 **Machine Learining Models**
-We trained supervised machine learning models to differentiate between depressed and healthy sample based upon their tweets. At the begining the sentences were passed to BERT models and pooling layer to generate their embeddings. 
-The Classifiers were trained on a randomly selected 80% of total population, and tested on the remaining 20%. We basically used Random Forest Classifier and Naives Bayes Classifier and Support Vector Machine (SVM).
-Out of several candidate algorithms, the SVM demonstrated the best performance (Accuracy of 99%). Moreover, Random Forest Classifier also showed good accuracy (97%).
-
-Hyperparameter tuning with Random forest claffifier and found the better accuracy. 
-
+We trained supervised machine learning models to differentiate between depressed and healthy sample based upon their tweets. At the begining the sentences were passed to BERT models and pooling layer to generate their embeddings and finally normalized. 
+The Classifiers were trained on a randomly selected 80% of total population, and tested on the remaining 20%. We basically used Random Forest Classifier and Naives Bayes Classifier and Support Vector Machine (SVM). For each model the output was analysed as classification report, accuracy and infusion matrix. 
+Out of several candidate algorithms, the SVM demonstrated the best performance (Accuracy of 99%). Moreover, Random Forest Classifier also showed good accuracy (95.9%). Finally the hyperparameter tuning was done with Random Forest Classificer and found the slightly better accuracy (96.2%).
