@@ -29,3 +29,6 @@ Different information present on the dataset like number of rows, columns, varia
 We trained supervised machine learning models to differentiate between depressed and healthy sample based upon their tweets. At the begining the sentences were passed to BERT models and pooling layer to generate their embeddings. 
 The Classifiers were trained on a randomly selected 80% of total population, and tested on the remaining 20%. We basically used Random Forest Classifier and Naives Bayes Classifier and Support Vector Machine (SVM).
 Out of several candidate algorithms, the SVM demonstrated the best performance (Accuracy of 99%). Moreover, Random Forest Classifier also showed good accuracy (97%).
+
+Hyperparameter tuning with Random forest claffifier and found the better accuracy. 
+
