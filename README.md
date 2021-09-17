@@ -1,19 +1,9 @@
 # TechLabs_medicine
 
-
 # Description
 
 We want to develop a machine learning model which will predict if a person is depressed from their use of tweets on social media. Sentimental analysis can be very useful to find out if a person has depression (based on their tweets) and cure it before someone gets into serious trouble.
 
-For more about git and github, you can watch this video...https://www.youtube.com/watch?v=RGOj5yH7evk&list=FLNqVzEKPAh5ntKuGcIQVYnw&index=1&t=1514s
-
-For more about random forest, you can watch this video...https://www.youtube.com/watch?v=eM4uJ6XGnSM
-
-For more about Sentiment Analysis with BERT, you can read this...https://curiousily.com/posts/sentiment-analysis-with-bert-and-hugging-face-using-pytorch-and-python/
-
-https://www.youtube.com/watch?v=oUpuABKoElw
-
-or watch this video...https://www.youtube.com/watch?v=szczpgOEdXs
 
 # Project steps
 **Background**
