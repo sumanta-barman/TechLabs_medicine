@@ -18,6 +18,7 @@ root.title("Depression Test")
 label = tk.Label(root,text="Hi! This program try to predic if you probably are or not depressed", width=100).pack(ipadx=50, ipady=50)
 
 tweet = tk.Entry(root, selectborderwidth=5, text="Enter your tweet here", insertwidth="100").pack(ipadx=50, ipady=50)
+tweet = tweet.get()
 
 result = Button(root, text="Send", command=lambda: process(root, tweet, bert_model, X, y))
 result.pack()
