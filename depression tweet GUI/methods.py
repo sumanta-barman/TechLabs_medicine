@@ -21,9 +21,8 @@ def split(X,y):
   return X_train, X_test, y_train, y_test
 
 #process and analyse the df and tweet
-def process(root, df, tweet):
+def process(root, tweet, bert_model, X, y):
     tweet = tweet.get()
-    X,y,bert_model = bert(df)
     X_train, X_test, y_train, y_test = split(X,y)
     RF = RandomForestClassifier().fit(X_train, y_train)
     words = np.array(['not depressed', 'depressed'])
