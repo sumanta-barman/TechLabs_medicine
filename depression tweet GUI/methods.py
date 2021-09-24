@@ -22,9 +22,10 @@ def split(X,y):
 
 #process and analyse the df and tweet
 def process(root, tweet, bert_model, X, y):
+    tweet = tweet.get()
     X_train, X_test, y_train, y_test = split(X,y)
     RF = RandomForestClassifier().fit(X_train, y_train)
     words = np.array(['not depressed', 'depressed'])
     pred= RF.predict([bert_model.encode(tweet)])
-    Label(root, text= words[pred].squeeze()).pack()
+    Label(root, text= "You're probably ".words[pred].squeeze()).grid()
     
