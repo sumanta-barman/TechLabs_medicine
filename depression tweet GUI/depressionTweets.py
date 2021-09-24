@@ -20,7 +20,7 @@ label = tk.Label(root,text="Hi! This program try to predic if you probably are o
 tweet = tk.Entry(root, selectborderwidth=5, text="Enter your tweet here")
 tweet.grid(ipadx=50, ipady=50)
 
-result = Button(root, text="Send", command=lambda: process(root, tweet, bert_model, X, y))
+result = tk.Button(root, text="Send", command=lambda: process(root, tweet, bert_model, X, y))
 result.grid()
 
 root.mainloop()

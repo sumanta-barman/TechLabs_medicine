@@ -2,7 +2,7 @@ from sklearn.model_selection import train_test_split
 from sentence_transformers import SentenceTransformer
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np 
-from tkinter import *
+import tkinter as tk
 
 #transform tweets to embeddings
 def bert(df):
@@ -25,7 +25,8 @@ def process(root, tweet, bert_model, X, y):
     tweet = tweet.get()
     X_train, X_test, y_train, y_test = split(X,y)
     RF = RandomForestClassifier().fit(X_train, y_train)
+    label = tk.Label(root,text="Processing... your tweet is probably... ", width=100).grid(ipadx=50, ipady=50)
     words = np.array(['not depressed', 'depressed'])
     pred= RF.predict([bert_model.encode(tweet)])
-    Label(root, text= "You're probably ".words[pred].squeeze()).grid()
+    tk.Label(root, text= words[pred].squeeze()).grid()
     
